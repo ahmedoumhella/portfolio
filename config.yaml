@@ -26,8 +26,7 @@ params:
 
   # Navbar Menus
   customMenus:
-    - name: "Blog"
-      Url: "/blog"
+
 
   # home
   disable_home: false
@@ -123,6 +122,3 @@ params:
   socialiconfooter: true
   recentposts: true
 
-  # Blog
-  showdescription: false
-  tweet: true
