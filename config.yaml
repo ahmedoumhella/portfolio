@@ -1,0 +1,128 @@
+baseURL: "https://ahmedoumhella.github.io/portfolio"
+languageCode: "en-us"
+title: "Ahmed OUMHELLA"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: "/images/img.jpg"
+  description: "personal portfolio"
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "/images/img.jpg"
+  name: "Ahmed OUMHELLA"
+  namecolor: ffc107
+  profession: "Fullstack developer JAVA JEE/ANGULAR"
+  github: "https://github.com/ahmedoumhella"
+  linkedin: "https://www.linkedin.com/in/ahmed-oumhella-a676619b/"
+  twitter: "https://twitter.com/Aoumhella1"
+  instagram: "https://www.instagram.com/oumhellaahmed/"
+  facebook: "https://web.facebook.com/ahmed.jhjkllhhgjahmed"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm Ahmed OUMHELLA, Young engineer, aged 24, study at the National School of Applied Sciences of Agadir (ENSA), specializing in Computer Engineering.
+                                               with more than 1 years of experience in analysis and programming of web projects targeting technologies such as: JAVA / JEE, Angular, Spring ... adopting Agile work methodologies"
+  descripe_l2_person: "you can take a look on my [GitHub Account](https://github.com/ahmedoumhella)"
+  skills:
+    - name: Backend(JAVA/JEE, JPA/HIBERNATE ,SPRING)
+      percentage: 90
+    - name: Frontend(Angular, JavaScript, Bootstrap, Html5, Css3)
+      percentage: 85
+    - name: SGBD(MySQL, Oracle, H2, MongoDB)
+      percentage: 80
+    - name: Web-Services(Rest, Soap)
+      percentage: 80
+    - name: Devops(GIT, Docker, SonarQube, Jenkins)
+      percentage: 70
+    - name: Analyse/Conception(UML, Merise)
+      percentage: 70
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Oxyliom Solutions"
+      id: "oxyliom-developer"
+      role: "Software developer"
+      startdate: Aug 2020
+      enddate: present
+      featuredpoints:
+        - point: Participation in the design and implementation of new features.
+    - company: "Oxyliom Solutions"
+      id: "oxyliom-training"
+      role: "traineeship"
+      startdate: Feb 2020
+      enddate: Aug 2020
+      featuredpoints:
+        - point: Implementation of strong authentication solutions applied on CIAM systems.
+
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "Engineer"
+      branch: "Computer Engineering"
+      university: "National School of Applied Sciences(Ibn Zohr university)"
+      startedyear: "2015"
+      graduation: "2020"
+    - degree: "baccalaureate"
+      branch: "Mathematical sciences-A"
+      university: "Hassan II"
+      startedyear: "2015"
+      graduation: "2015"
+
+  # Projects
+  disable_projects: true
+  projects:
+    - name: "ENSAINO"
+      img: /images/project.jpg
+      githublink: "https://github.com/"
+      featuredlink: "/"
+      description: "Design and production of a web and mobile application for the management of reservations."
+
+  # Achievements
+  disable_achievements: false
+  achievements:
+    - title: Hackatoon winner
+      description: 2nd screenDay hackatoon prize organized in ENSA AGADIR.
+      img: /images/achiv1.jpg
+      url: https://facebook.com/hackandpitch
+    - title: Competition winner
+      description: 1st prize in the local robotics competition at ENSA AGADIR.
+      img: /images/achiv2.jpg
+      url: https://facebook.com/crrtensa
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  email: "ahmedoumhella@gmail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true
