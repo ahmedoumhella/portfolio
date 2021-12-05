@@ -119,6 +119,6 @@ params:
   email: "ahmedoumhella@gmail.com"
 
   # Footer
-  socialiconfooter: true
-  recentposts: true
+  socialiconfooter: false
+  recentposts: false
 

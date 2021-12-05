@@ -26,8 +26,7 @@ params:
 
   # Navbar Menus
   customMenus:
-    - name: "Blogmm"
-      Url: "/blog"
+
 
   # home
   disable_home: false
@@ -125,4 +124,4 @@ params:
 
   # Blog
   showdescription: false
-  tweet: true
+  tweet: false
