@@ -1,9 +1,9 @@
 ---
-title: "Markdown Syntax"
+title: "Markdown Syntax bjnbjjnj bhj"
 date: 2021-04-03T23:29:21+05:30
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+github_link: "https://github.com/ahmedoumhella"
+author: "ahmedoumhella"
 tags:
   - Markdown syntax
 bg_image: ""
@@ -11,8 +11,7 @@ description: ""
 toc: 
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+This a demo article<!--more-->
 
 ## Headings
 
