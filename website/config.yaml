@@ -26,7 +26,7 @@ params:
 
   # Navbar Menus
   customMenus:
-    - name: "Blog"
+    - name: "Blogmm"
       Url: "/blog"
 
   # home
